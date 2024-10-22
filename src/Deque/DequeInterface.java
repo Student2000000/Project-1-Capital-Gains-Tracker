@@ -22,8 +22,8 @@ public interface DequeInterface<T> extends Iterable<T>{
     /** Returns the front or back entry's data.
      * @return Entry data for front of back node.
      */
-    public T getFront();
-    public T getBack();
+    public T getFront() throws EmptyQueException;
+    public T getBack() throws EmptyQueException;
 
     /* Removes all entries from this deque. */
     public void clear();
