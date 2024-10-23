@@ -2,6 +2,11 @@ import java.util.Scanner;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Brings together the program's data and presents it
+ * in an organized block.
+ */
+
 public class Main {
 
     public class StockLedgerMain {
